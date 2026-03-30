@@ -12,6 +12,11 @@ export interface Project {
   links: ProjectLink[];
 }
 
+export interface FooterSocials {
+  label: string;
+  href: string;
+}
+
 export interface Skill {
   name: string;
   pct: number;
@@ -97,15 +102,15 @@ export const SKILLS: SkillsData = {
 };
 
 export const TOOLS: string[] = [
-  'Figma', 'Vite', 'Prisma', 'Redis', 'AWS',
-  'Vercel', 'Jest', 'Cypress', 'Git', 'Linux', 'Storybook', 'Nx',
+  'Vite', 'AWS', 'Docker', 'PostgreSQL', 'Postman',
+  'Vercel', 'Git', 'Linux', 'Azure Devops', 'SQL Server'
 ];
 
 // ── About ──────────────────────────────────────────────
 export const STATS: StatItem[] = [
-  { value: '5+', label: 'Years experience' },
-  { value: '40+', label: 'Projects shipped' },
-  { value: '12+', label: 'Happy clients' },
+  { value: '3+', label: 'Years experience' },
+  { value: '5+', label: 'Projects shipped' },
+  { value: '10+', label: 'Happy clients' },
 ];
 
 // ── Contact ────────────────────────────────────────────
@@ -115,4 +120,10 @@ export const CONTACT_DETAILS: ContactDetail[] = [
   { icon: '🕐', text: 'UTC+1 (CET)' },
 ];
 
-export const FOOTER_SOCIALS = ['GH', 'LI', 'TW', 'DR'];
+// export const FOOTER_SOCIALS = ['GH','LI','TW','DR'];
+
+export const FOOTER_SOCIALS: FooterSocials[] = [
+  { label: 'GH', href: 'https://github.com/kelton-glitch' },
+  { label: 'LI', href: 'https://www.linkedin.com/in/elton-kamgo/' },
+  { label: 'TW', href: 'https://twitter.com/kelton194' },
+];

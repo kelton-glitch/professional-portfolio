@@ -28,7 +28,7 @@ export default function Contact() {
           <div className="form-row">
             <div className="form-group">
               <label>First Name</label>
-              <input type="text" placeholder="Jane" />
+              <input type="text" placeholder="John" />
             </div>
             <div className="form-group">
               <label>Last Name</label>
@@ -37,7 +37,7 @@ export default function Contact() {
           </div>
           <div className="form-group">
             <label>Email</label>
-            <input type="email" placeholder="jane@company.com" />
+            <input type="email" placeholder="johndoe@company.com" />
           </div>
           <div className="form-group">
             <label>Subject</label>

@@ -19,7 +19,7 @@ export default function About() {
         {/* Text */}
         <div className="about-text">
           <p>
-            Hi! I'm Elton — a full-stack developer with 5+ years of experience building
+            Hi! I'm Elton — a full-stack developer with 3+ years of experience building
             products that sit at the intersection of great engineering and thoughtful design.
             I thrive in collaborative environments and love turning complex problems into
             elegant, maintainable solutions.

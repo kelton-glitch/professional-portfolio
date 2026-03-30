@@ -19,12 +19,12 @@ export default function Skills() {
 
         {/* Backend + Tools */}
         <div>
-          <div className="skill-category-title">Backend &amp; Infra</div>
+          <div className="skill-category-title">Backend &amp; Infrastructure</div>
           {SKILLS.backend.map((s) => (
             <SkillBar key={s.name} {...s} />
           ))}
-
-          <div className="skill-category-title" style={{ marginTop: '2rem' }}>
+        </div>
+         <div className="skill-category-title" style={{ marginTop: '2rem' }}>
             Tools &amp; Ecosystem
           </div>
           <div className="tech-chips">
@@ -32,7 +32,6 @@ export default function Skills() {
               <span key={t} className="tech-chip">{t}</span>
             ))}
           </div>
-        </div>
       </div>
     </section>
   );
